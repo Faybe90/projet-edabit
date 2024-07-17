@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Défis JavaScript</title>
+  </head>
+  <body>
+    <h1>Défis JavaScript</h1>
+
+    <div class="image-container">
+      <figure>
+        <a href="./captures/1.png" target="_blank">
+          <img src="./captures/1.png" alt="exercice 1" />
+          <figcaption>Défi 1</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/2.png" target="_blank">
+          <img src="./captures/2.png" alt="exercice 2" />
+          <figcaption>Défi 2</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/3.png" target="_blank">
+          <img src="./captures/3.png" alt="exercice 3" />
+          <figcaption>Défi 3</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/4.png" target="_blank">
+          <img src="./captures/4.png" alt="exercice 4" />
+          <figcaption>Défi 4</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/5.png" target="_blank">
+          <img src="./captures/5.png" alt="exercice 5" />
+          <figcaption>Défi 5</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/6.png" target="_blank">
+          <img src="./captures/6.png" alt="exercice 6" />
+          <figcaption>Défi 6</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/7.png" target="_blank">
+          <img src="./captures/7.png" alt="exercice 7" />
+          <figcaption>Défi 7</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/8.png" target="_blank">
+          <img src="./captures/8.png" alt="exercice 8" />
+          <figcaption>Défi 8</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/9.png" target="_blank">
+          <img src="./captures/9.png" alt="exercice 9" />
+          <figcaption>Défi 9</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/10.png" target="_blank">
+          <img src="./captures/10.png" alt="exercice 10" />
+          <figcaption>Défi 10</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/11.png" target="_blank">
+          <img src="./captures/11.png" alt="exercice 11" />
+          <figcaption>Défi 11</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/12.png" target="_blank">
+          <img src="./captures/12.png" alt="exercice 12" />
+          <figcaption>Défi 12</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/13.png" target="_blank">
+          <img src="./captures/13.png" alt="exercice 13" />
+          <figcaption>Défi 13</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/14.png" target="_blank">
+          <img src="./captures/14.png" alt="exercice 14" />
+          <figcaption>Défi 14</figcaption>
+        </a>
+      </figure>
+
+      <figure>
+        <a href="./captures/15.png" target="_blank">
+          <img src="./captures/15.png" alt="exercice 15" />
+          <figcaption>Défi 15</figcaption>
+        </a>
+      </figure>
+    </div>
+
+    <script>
+      const images = document.querySelectorAll(".image-container figure img");
+      images.forEach((img) => {
+        img.addEventListener("mouseover", () => {
+          img.style.transform = "scale(1.1)";
+          img.style.transition = "transform 0.3s ease";
+        });
+        img.addEventListener("mouseout", () => {
+          img.style.transform = "scale(1)";
+        });
+      });
+    </script>
+  </body>
+</html>
